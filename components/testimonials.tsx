@@ -36,7 +36,7 @@ export default function Testimonials() {
                 <cite className="text-gray-200 not-italic">UX</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
                 >
                   $4,000/month
                 </a>
@@ -61,7 +61,7 @@ export default function Testimonials() {
                 <cite className="text-gray-200 not-italic">UX & Dev</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
                 >
                   $5,000/month
                 </a>
@@ -83,7 +83,7 @@ export default function Testimonials() {
                 Request a 15 minute Zoom meeting if you would like more details on the simple and straight-forward onboarding process. 
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic"><a href="mailto:chrisnguyen5@gmail.com">Message us</a></cite>{" "}
+                <cite className="text-gray-200 not-italic">Message us</cite>{" "}
                 -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"

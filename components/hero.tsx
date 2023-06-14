@@ -61,7 +61,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="#0"
+                  href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
                 >
                   See Plans
                 </a>
