@@ -1,11 +1,25 @@
+// import Accordion from '@/signup/accordion';
+
+
 export const metadata = {
-  title: 'Sign Up - Open PRO',
-  description: 'Page description',
+  title: 'FAQ',
+  description: 'Learn more page',
 }
 
-import Link from 'next/link'
+
 
 export default function SignUp() {
+
+  const accordionData = {
+    title: 'Section 1',
+    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
+      laborum cupiditate possimus labore, hic temporibus velit dicta earum
+      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
+      voluptatem.`
+  };
+
+  const { title, content } = accordionData;
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -13,66 +27,48 @@ export default function SignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome. We exist to make entrepreneurship easier.</h1>
+            <h1 className="h1">FAQs</h1>
+            <div className="text-gray-400 text-center mt-6">
+              We're here to answer all of your questions.
+            </div>
           </div>
 
-          {/* Form */}
-          <div className="max-w-sm mx-auto">
-            <form>
-              <div className="flex flex-wrap -mx-3">
-                <div className="w-full px-3">
-                  <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
-                    <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
-                    </svg>
-                    <span className="h-6 flex items-center border-r border-white border-opacity-25 mr-4" aria-hidden="true"></span>
-                    <span className="flex-auto pl-16 pr-8 -ml-16">Sign up with Google</span>
-                  </button>
-                </div>
-              </div>
-            </form>
-            <div className="flex items-center my-6">
-              <div className="border-t border-gray-700 border-dotted grow mr-3" aria-hidden="true"></div>
-              <div className="text-gray-400">Or, register with your email</div>
-              <div className="border-t border-gray-700 border-dotted grow ml-3" aria-hidden="true"></div>
-            </div>
-            <form>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
-                  <input id="full-name" type="text" className="form-input w-full text-gray-300" placeholder="First and last name" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="company-name">Company Name <span className="text-red-600">*</span></label>
-                  <input id="company-name" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
-                </div>
-              </div>
-              <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by Open PRO about this offer as per the Open PRO <Link href="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
-              </div>
-              <div className="flex flex-wrap -mx-3 mt-6">
-                <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign up</button>
-                </div>
-              </div>
-            </form>
-            <div className="text-gray-400 text-center mt-6">
-              Already using Open PRO? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
-            </div>
+          {/* FAQ */}
+          <div className="">
+          <h4 className="h4 mb-2">Why wouldn't I just hire a full-time designer?</h4>
+            <p className="text-xl text-gray-400 mb-4">Great question! The annual cost of a full-time senior-level designer now exceeds over $7,000 per month,
+              plus benefits (and good luck finding one available). Aside from that, you may not always have enough work to keep them busy at all times,
+              so you're stuck paying for time you aren't able to utilize.</p>
+            <p className="text-xl text-gray-400 mb-4">
+              With the monthly plan that is nearly half the cost, you can pause and resume your subscription as often as you need to ensure you're only paying your designer when you have work available for them.
+            </p>
+            <h4 className="h4 mb-2">Is there a limit to how many requests I can have?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+              Once subscribed, you're able to add as many design requests to your queue as you would like, and they will be delivered one by one.
+            </p>
+            <h4 className="h4 mb-2">How quick will I receive back my designs and revsions?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+              On average, most requests are completed in <strong><i>24 hours or less</i></strong>. However, more complex requests can take longer.
+            </p>
+            <h4 className="h4 mb-2">How does the pause feature work?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+              Sometimes you may not have enough design work to fill up entire month. Therefore pausing your subscription can come in handy.
+              Billing cycles are based on 31 day period. Let's say you sign up and use the service for 21 days, and then decide to pause your subscription.
+              This means that the billing cycle will be paused and you'll have 10 days of service remaining to be used anytime in the future.
+            </p>
+            <h4 className="h4 mb-2">How do I request designs?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+            We offer a ton of flexibility in how you request designs using Trello. Some common ways clients request designs is directly via Trello, 
+            sharing Google docs or wireframes, or even recording a brief recorded video. Basically, if it can be linked to or shared in Trello.
+            </p>
+            <h4 className="h4 mb-2">What if I don't like the design?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+            No worries! We'll continue to revise the design until you're 100% satisfied.
+            </p>
+            <h4 className="h4 mb-2">Can I set up a meeting if I want more information?</h4>
+            <p className="text-xl text-gray-400 mb-4">
+            We offer a 15 minute Zoom call to ensure all your questions are answered free of charge.
+            </p>
           </div>
 
         </div>

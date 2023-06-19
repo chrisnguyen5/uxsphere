@@ -1,6 +1,13 @@
 {
   "pages": {},
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}": [
+      "static/media/2aaf0723e720e8b9-s.p.woff2"
+    ],
+    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-architects-daughter\",\"weight\":\"400\"}],\"import\":\"Architects_Daughter\",\"path\":\"app/layout.tsx\",\"variableName\":\"architects_daughter\"}": [
+      "static/media/396f3f65dc2bdc58-s.p.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false
 }
