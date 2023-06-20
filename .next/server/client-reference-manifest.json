@@ -230,6 +230,58 @@
         "async": false
       }
     },
+    "(app-client)/./app/(default)/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/images/1.png": {
       "*": {
         "id": "(sc_client)/./public/images/1.png",
@@ -308,6 +360,110 @@
         "async": false
       }
     },
+    "(app-client)/./public/images/abbvie.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/abbvie.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/abbvie.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/abbvie.png",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/bb.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/bb.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/bb.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/bb.png",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/boeing.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/boeing.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/boeing.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/boeing.png",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/csu.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/csu.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/csu.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/csu.png",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/images/hero-image-01.jpg": {
       "*": {
         "id": "(sc_client)/./public/images/hero-image-01.jpg",
@@ -327,6 +483,58 @@
       },
       "default": {
         "id": "(sc_client)/./public/images/hero-image-01.jpg",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/lexus.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/lexus.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/lexus.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/lexus.png",
+        "name": "default",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/yamaha.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/yamaha.png",
+        "name": "*",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/yamaha.png",
+        "name": "",
+        "chunks": [
+          "app/(default)/page:static/chunks/app/(default)/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/yamaha.png",
         "name": "default",
         "chunks": [
           "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -416,58 +624,6 @@
         "name": "defaultHead",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/(default)/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
         ],
         "async": false
       }
@@ -1207,6 +1363,85 @@
       ],
       "async": false
     },
+    "/Users/chrisnguyen/uxsphere/node_modules/aos/dist/aos.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/(default)/layout.css"
+      ]
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#default": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/chrisnguyen/uxsphere/public/images/1.png": {
       "id": "(app-client)/./public/images/1.png",
       "name": "*",
@@ -1279,6 +1514,102 @@
       ],
       "async": false
     },
+    "/Users/chrisnguyen/uxsphere/public/images/abbvie.png": {
+      "id": "(app-client)/./public/images/abbvie.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/abbvie.png#": {
+      "id": "(app-client)/./public/images/abbvie.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/abbvie.png#default": {
+      "id": "(app-client)/./public/images/abbvie.png",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/bb.png": {
+      "id": "(app-client)/./public/images/bb.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/bb.png#": {
+      "id": "(app-client)/./public/images/bb.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/bb.png#default": {
+      "id": "(app-client)/./public/images/bb.png",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/boeing.png": {
+      "id": "(app-client)/./public/images/boeing.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/boeing.png#": {
+      "id": "(app-client)/./public/images/boeing.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/boeing.png#default": {
+      "id": "(app-client)/./public/images/boeing.png",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/csu.png": {
+      "id": "(app-client)/./public/images/csu.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/csu.png#": {
+      "id": "(app-client)/./public/images/csu.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/csu.png#default": {
+      "id": "(app-client)/./public/images/csu.png",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
     "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.jpg": {
       "id": "(app-client)/./public/images/hero-image-01.jpg",
       "name": "*",
@@ -1297,6 +1628,54 @@
     },
     "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.jpg#default": {
       "id": "(app-client)/./public/images/hero-image-01.jpg",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/lexus.png": {
+      "id": "(app-client)/./public/images/lexus.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/lexus.png#": {
+      "id": "(app-client)/./public/images/lexus.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/lexus.png#default": {
+      "id": "(app-client)/./public/images/lexus.png",
+      "name": "default",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/yamaha.png": {
+      "id": "(app-client)/./public/images/yamaha.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/yamaha.png#": {
+      "id": "(app-client)/./public/images/yamaha.png",
+      "name": "",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/public/images/yamaha.png#default": {
+      "id": "(app-client)/./public/images/yamaha.png",
       "name": "default",
       "chunks": [
         "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -1436,85 +1815,6 @@
       "name": "defaultHead",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/aos/dist/aos.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/(default)/layout.css"
-      ]
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#default": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
       ],
       "async": false
     },

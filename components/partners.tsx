@@ -1,3 +1,11 @@
+import Image from 'next/image'
+import Abbvie from "@/public/images/abbvie.png";
+import Bb from "@/public/images/bb.png";
+import Boeing from "@/public/images/boeing.png";
+import Csu from "@/public/images/csu.png";
+import Lexus from "@/public/images/lexus.png";
+import Yamaha from "@/public/images/yamaha.png";
+
 
 export default function Newsletter() {
   return (
@@ -18,21 +26,23 @@ export default function Newsletter() {
               <div className="slider">
                 <div className="slide-track">
                   <div className="">
-                    <img className="partner-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt=""/>
+                    <Image className="partner-img" src={Abbvie} alt=""/>
                   </div>
                   <div className="">
-                    <img className="partner-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" alt=""/>
+                  <Image className="partner-img" src={Bb} alt=""/>
                   </div>
                   <div className="">
-                    <img className="partner-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt=""/>
+                  <Image className="partner-img" src={Boeing} alt=""/>
                   </div>
                   <div className="">
-                    <img className="partner-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt=""/>
+                  <Image className="partner-img" src={Csu} alt=""/>
                   </div>
                   <div className="">
-                    <img className="partner-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt=""/>
+                  <Image className="partner-img" src={Lexus} alt=""/>
                   </div>
-
+                  <div className="">
+                  <Image className="partner-img" src={Yamaha} alt=""/>
+                  </div>
                 </div>
               </div>
             </div>
