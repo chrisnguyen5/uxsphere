@@ -1312,6 +1312,9 @@ input[type=range]::-moz-focus-outer {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .block {
   display: block;
 }
@@ -1626,6 +1629,15 @@ input[type=range]::-moz-focus-outer {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pt-12 {
+  padding-top: 3rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1793,8 +1805,8 @@ input[type=range]::-moz-focus-outer {
 .partner-img {
     width: 250px;
     height: auto;
-    padding-right:50px;
-    animation: scroll 60s linear infinite;
+    padding-right:30px;
+    /* animation: scroll 60s linear infinite; */
 }
 .slide-track {
     width: 100%;
@@ -2042,6 +2054,14 @@ input[type=range]::-moz-focus-outer {
 
   .md\:pt-40 {
     padding-top: 10rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 }
 @media (min-width: 1024px) {

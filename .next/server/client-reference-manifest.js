@@ -230,58 +230,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(default)/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(default)/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/(default)/layout:static/chunks/app/(default)/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/images/1.png": {
       "*": {
         "id": "(sc_client)/./public/images/1.png",
@@ -647,6 +595,58 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./public/images/uxs-logo.svg",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(default)/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(default)/layout:static/chunks/app/(default)/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
@@ -1363,85 +1363,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/node_modules/aos/dist/aos.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/(default)/layout.css"
-      ]
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#default": {
-      "id": "(app-client)/./app/(default)/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/(default)/layout:static/chunks/app/(default)/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/chrisnguyen/uxsphere/public/images/1.png": {
       "id": "(app-client)/./public/images/1.png",
       "name": "*",
@@ -1818,25 +1739,11 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/app/css/style.css#": {
+    "/Users/chrisnguyen/uxsphere/node_modules/aos/dist/aos.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-architects-daughter\",\"weight\":\"400\"}],\"import\":\"Architects_Daughter\",\"path\":\"app/layout.tsx\",\"variableName\":\"architects_daughter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
+        "static/css/app/(default)/layout.css"
       ]
     },
     "/Users/chrisnguyen/uxsphere/public/images/uxs-logo.svg": {
@@ -1862,6 +1769,99 @@ self.__RSC_MANIFEST={
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/(default)/layout.tsx#default": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/chrisnguyen/uxsphere/app/css/style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-architects-daughter\",\"weight\":\"400\"}],\"import\":\"Architects_Daughter\",\"path\":\"app/layout.tsx\",\"variableName\":\"architects_daughter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/chrisnguyen/uxsphere/node_modules/next/font/google/target.css?{\"arguments\":[{\"display\":\"swap\",\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     },
     "/Users/chrisnguyen/uxsphere/components/ui/mobile-menu.tsx": {
       "id": "(app-client)/./components/ui/mobile-menu.tsx",

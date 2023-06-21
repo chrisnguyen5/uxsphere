@@ -35,7 +35,7 @@ export default function SignUp() {
 
           {/* FAQ */}
           <div className="">
-          <h4 className="h4 mb-2">Why wouldn't I just hire a full-time designer?</h4>
+            <h4 className="h4 mb-2">Why wouldn't I just hire a full-time designer?</h4>
             <p className="text-xl text-gray-400 mb-4">Great question! The annual cost of a full-time senior-level designer now exceeds over $7,000 per month,
               plus benefits (and good luck finding one available). Aside from that, you may not always have enough work to keep them busy at all times,
               so you're stuck paying for time you aren't able to utilize.</p>
@@ -58,17 +58,33 @@ export default function SignUp() {
             </p>
             <h4 className="h4 mb-2">How do I request designs?</h4>
             <p className="text-xl text-gray-400 mb-4">
-            We offer a ton of flexibility in how you request designs using Trello. Some common ways clients request designs is directly via Trello, 
-            sharing Google docs or wireframes, or even recording a brief recorded video. Basically, if it can be linked to or shared in Trello.
+              We offer a ton of flexibility in how you request designs using Trello. Some common ways clients request designs is directly via Trello,
+              sharing Google docs or wireframes, or even recording a brief recorded video. Basically, if it can be linked to or shared in Trello.
             </p>
             <h4 className="h4 mb-2">What if I don't like the design?</h4>
             <p className="text-xl text-gray-400 mb-4">
-            No worries! We'll continue to revise the design until you're 100% satisfied.
+              No worries! We'll continue to revise the design until you're 100% satisfied.
             </p>
             <h4 className="h4 mb-2">Can I set up a meeting if I want more information?</h4>
             <p className="text-xl text-gray-400 mb-4">
-            We offer a 15 minute Zoom call to ensure all your questions are answered free of charge.
+              We offer a 15 minute Zoom call to ensure all your questions are answered free of charge.
             </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto text-center pt-20 md:pb-5">
+            <h3 className="h2 mb-4">Join us today</h3>
+          </div>
+
+          <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <a
+                className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
+              >
+                See Plans
+              </a>
+            </div>
+           
           </div>
 
         </div>

@@ -20,31 +20,33 @@ export default function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-center items-center">
 
             {/* CTA content */}
-            <div className="mb-6 lg:mb-0 text-center lg:text-center">
+            <div className="mb-6 lg:mb-0 text-center lg:text-center" data-aos="fade-up"
+              data-aos-delay="200">
               <h3 className="h3 text-white mb-2">Partnered with</h3>
 
               <div className="slider">
                 <div className="slide-track">
                   <div className="">
-                    <Image className="partner-img" src={Abbvie} alt=""/>
+                    <Image className="partner-img" src={Abbvie} alt="" />
                   </div>
                   <div className="">
-                  <Image className="partner-img" src={Bb} alt=""/>
+                    <Image className="partner-img" src={Bb} alt="" />
                   </div>
                   <div className="">
-                  <Image className="partner-img" src={Boeing} alt=""/>
+                    <Image className="partner-img" src={Boeing} alt="" />
                   </div>
                   <div className="">
-                  <Image className="partner-img" src={Csu} alt=""/>
+                    <Image className="partner-img" src={Csu} alt="" />
                   </div>
                   <div className="">
-                  <Image className="partner-img" src={Lexus} alt=""/>
+                    <Image className="partner-img" src={Lexus} alt="" />
                   </div>
                   <div className="">
-                  <Image className="partner-img" src={Yamaha} alt=""/>
+                    <Image className="partner-img" src={Yamaha} alt="" />
                   </div>
                 </div>
               </div>
+
             </div>
 
           </div>
