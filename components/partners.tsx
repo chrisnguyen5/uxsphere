@@ -27,22 +27,22 @@ export default function Newsletter() {
               <div className="slider">
                 <div className="slide-track">
                   <div className="">
-                    <Image className="partner-img" src={Abbvie} alt="" />
+                    <Image className="" src={Abbvie} alt="" />
                   </div>
                   <div className="">
-                    <Image className="partner-img" src={Bb} alt="" />
+                    <Image className="" src={Bb} alt="" />
                   </div>
                   <div className="">
-                    <Image className="partner-img" src={Boeing} alt="" />
+                    <Image className="" src={Boeing} alt="" />
                   </div>
                   <div className="">
-                    <Image className="partner-img" src={Csu} alt="" />
+                    <Image className="" src={Csu} alt="" />
                   </div>
                   <div className="">
-                    <Image className="partner-img" src={Lexus} alt="" />
+                    <Image className="" src={Lexus} alt="" />
                   </div>
                   <div className="">
-                    <Image className="partner-img" src={Yamaha} alt="" />
+                    <Image className="" src={Yamaha} alt="" />
                   </div>
                 </div>
               </div>
