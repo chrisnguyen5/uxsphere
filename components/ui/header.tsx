@@ -29,7 +29,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="https://buy.stripe.com/4gw7u37Xs38r5Z6289" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="https://buy.stripe.com/4gw7u37Xs38r5Z6289" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-3xl">
                   Sign up
                 </Link>
               </li>
