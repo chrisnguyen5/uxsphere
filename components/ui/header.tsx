@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
-import Logo from '@/public/images/uxs-logo.svg'
+import Logo from '@/public/images/uxs-logo1.svg'
 
 export default function Header() {
   return (
@@ -25,7 +25,11 @@ export default function Header() {
                   href="/signup"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
+                  <span className="gradient-text">
                   Learn more
+                  </span>
+                  
+                  
                 </Link>
               </li>
               <li>

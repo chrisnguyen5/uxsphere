@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/public/images/uxs-logo.svg'
+import Logo from '@/public/images/uxs-logo1.svg'
 
 export default function Footer() {
   return (

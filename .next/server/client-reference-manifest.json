@@ -412,9 +412,9 @@
         "async": false
       }
     },
-    "(app-client)/./public/images/hero-image-01.jpg": {
+    "(app-client)/./public/images/hero-image-01.png": {
       "*": {
-        "id": "(sc_client)/./public/images/hero-image-01.jpg",
+        "id": "(sc_client)/./public/images/hero-image-01.png",
         "name": "*",
         "chunks": [
           "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -422,7 +422,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./public/images/hero-image-01.jpg",
+        "id": "(sc_client)/./public/images/hero-image-01.png",
         "name": "",
         "chunks": [
           "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -430,7 +430,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/images/hero-image-01.jpg",
+        "id": "(sc_client)/./public/images/hero-image-01.png",
         "name": "default",
         "chunks": [
           "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -576,9 +576,9 @@
         "async": false
       }
     },
-    "(app-client)/./public/images/uxs-logo.svg": {
+    "(app-client)/./public/images/uxs-logo1.svg": {
       "*": {
-        "id": "(sc_client)/./public/images/uxs-logo.svg",
+        "id": "(sc_client)/./public/images/uxs-logo1.svg",
         "name": "*",
         "chunks": [
           "app/(default)/layout:static/chunks/app/(default)/layout.js"
@@ -586,7 +586,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./public/images/uxs-logo.svg",
+        "id": "(sc_client)/./public/images/uxs-logo1.svg",
         "name": "",
         "chunks": [
           "app/(default)/layout:static/chunks/app/(default)/layout.js"
@@ -594,7 +594,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/images/uxs-logo.svg",
+        "id": "(sc_client)/./public/images/uxs-logo1.svg",
         "name": "default",
         "chunks": [
           "app/(default)/layout:static/chunks/app/(default)/layout.js"
@@ -1531,24 +1531,24 @@
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.jpg": {
-      "id": "(app-client)/./public/images/hero-image-01.jpg",
+    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.png": {
+      "id": "(app-client)/./public/images/hero-image-01.png",
       "name": "*",
       "chunks": [
         "app/(default)/page:static/chunks/app/(default)/page.js"
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.jpg#": {
-      "id": "(app-client)/./public/images/hero-image-01.jpg",
+    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.png#": {
+      "id": "(app-client)/./public/images/hero-image-01.png",
       "name": "",
       "chunks": [
         "app/(default)/page:static/chunks/app/(default)/page.js"
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.jpg#default": {
-      "id": "(app-client)/./public/images/hero-image-01.jpg",
+    "/Users/chrisnguyen/uxsphere/public/images/hero-image-01.png#default": {
+      "id": "(app-client)/./public/images/hero-image-01.png",
       "name": "default",
       "chunks": [
         "app/(default)/page:static/chunks/app/(default)/page.js"
@@ -1760,24 +1760,24 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo.svg": {
-      "id": "(app-client)/./public/images/uxs-logo.svg",
+    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo1.svg": {
+      "id": "(app-client)/./public/images/uxs-logo1.svg",
       "name": "*",
       "chunks": [
         "app/(default)/layout:static/chunks/app/(default)/layout.js"
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo.svg#": {
-      "id": "(app-client)/./public/images/uxs-logo.svg",
+    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo1.svg#": {
+      "id": "(app-client)/./public/images/uxs-logo1.svg",
       "name": "",
       "chunks": [
         "app/(default)/layout:static/chunks/app/(default)/layout.js"
       ],
       "async": false
     },
-    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo.svg#default": {
-      "id": "(app-client)/./public/images/uxs-logo.svg",
+    "/Users/chrisnguyen/uxsphere/public/images/uxs-logo1.svg#default": {
+      "id": "(app-client)/./public/images/uxs-logo1.svg",
       "name": "default",
       "chunks": [
         "app/(default)/layout:static/chunks/app/(default)/layout.js"
