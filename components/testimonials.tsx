@@ -21,7 +21,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* 1st testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800"
+              className="flex flex-col h-full p-6 bg-gray-800 rounded-xl"
               data-aos="fade-up"
             >
               <div>
@@ -36,16 +36,16 @@ export default function Testimonials() {
                 <cite className="text-gray-200 not-italic">UX</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
+                  href="https://buy.stripe.com/5kQ6oHfcc882dCj99pabK02"
                 >
-                  $4,000/month
+                  $500/month
                 </a>
               </div>
             </div>
 
             {/* 2nd testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800"
+              className="flex flex-col h-full p-6 bg-gray-800 rounded-xl"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -63,14 +63,14 @@ export default function Testimonials() {
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="https://buy.stripe.com/4gw7u37Xs38r5Z6289"
                 >
-                  $5,000/month
+                  <del>$800</del> $500/month
                 </a>
               </div>
             </div>
 
             {/* 3rd testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800"
+              className="flex flex-col h-full p-6 bg-gray-800 rounded-xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >

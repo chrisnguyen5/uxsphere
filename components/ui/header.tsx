@@ -21,7 +21,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
+                {/* <Link
                   href="/signup"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
@@ -30,10 +30,10 @@ export default function Header() {
                   </span>
                   
                   
-                </Link>
+                </Link> */}
               </li>
               <li>
-                <Link href="https://buy.stripe.com/4gw7u37Xs38r5Z6289" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-3xl">
+                <Link href="https://buy.stripe.com/5kQ6oHfcc882dCj99pabK02" className="btn-sm text-white bg-gray-900 hover:bg-gray-700 ml-3 rounded-3xl border-1 border-gray-700">
                   Sign up
                 </Link>
               </li>
